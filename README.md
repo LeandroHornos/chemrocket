@@ -1,3 +1,31 @@
+# THIS IS CHEMROCKET!
+
+## About Chemrocket
+
+Chemrocket is a web platform that provides an ever expanding series of cheminformatic tools to help people working with information related to chemical compounds. It is specially focused on organic compounds, providing tools to draw molecules, exporting the results to different formats and sharing them to different web services. It also presents several calculated properties that are relevant to students and proffesionals. 
+
+The application allows users to store information in the cloud. When a chemistry document is saved, the molecules contained in it will be stored as well, therefore, a personal molecules database is created, avoding the need of drawing the same molecules over and over again.
+
+It is our goal to expand the number and quality of available aplications, in order to build a rich echosystem of cheminformatics solutions for people who work on laboratories all around the world. We want to provide easy access to a broad set of tools that today are only available on very restrictive or expensive software packages or services.
+
+## Libraries and services
+Chemrocket is built on NextJS
+
+Other libraries and services:
+<ul>
+  <li>MongoDB Atlas: Database as a Service</li>
+  <li>Mongoose: To handle operations with mongodb</li>
+  <li>NextAuth: Session handling with OAuth</li>
+  <li>Bootstrap 5: Styles and responsiveness of the GUI</li>
+  <li>React-Toastify: Notification system of the GUI</li>
+  <li>Nodemailer For email sending</li>
+  <li>Sendgrid: Email Service</li>
+  <li>RDKIT: A JS wrapper around the RDkit. A cheminformatics library to make representations, calculations and searches on organic molecules </li>
+  <li>Kekule: A cheminformatics library that provides a Molecules Composer that allows to draw molecules and reactions, and work with molecules in different formats </li>
+</ul>
+
+
+## NEXTJS
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
