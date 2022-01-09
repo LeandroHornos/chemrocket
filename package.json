@@ -12,6 +12,7 @@
     "axios": "^0.24.0",
     "bootstrap": "^5.0.0-beta3",
     "date-fns": "^2.25.0",
+    "kekule": "^0.9.7",
     "mongoose": "^6.1.2",
     "next": "11.1.2",
     "next-auth": "^3.29.0",
