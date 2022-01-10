@@ -2,16 +2,18 @@
 
 ## About Chemrocket
 
-Chemrocket is a web platform that provides an ever expanding series of cheminformatic tools to help people working with information related to chemical compounds. It is specially focused on organic compounds, providing tools to draw molecules, exporting the results to different formats and sharing them to different web services. It also presents several calculated properties that are relevant to students and proffesionals. 
+Chemrocket is a web platform that provides an ever expanding series of cheminformatic tools to help people working with information related to chemical compounds. It is specially focused on organic compounds, providing tools to draw molecules, exporting the results to different formats and sharing them to different web services. It also presents several calculated properties that are relevant to students and proffesionals.
 
 The application allows users to store information in the cloud. When a chemistry document is saved, the molecules contained in it will be stored as well, therefore, a personal molecules database is created, avoding the need of drawing the same molecules over and over again.
 
 It is our goal to expand the number and quality of available aplications, in order to build a rich echosystem of cheminformatics solutions for people who work on laboratories all around the world. We want to provide easy access to a broad set of tools that today are only available on very restrictive or expensive software packages or services.
 
 ## Libraries and services
+
 Chemrocket is built on NextJS
 
 Other libraries and services:
+
 <ul>
   <li>MongoDB Atlas: Database as a Service</li>
   <li>Mongoose: To handle operations with mongodb</li>
@@ -24,8 +26,15 @@ Other libraries and services:
   <li>Kekule: A cheminformatics library that provides a Molecules Composer that allows to draw molecules and reactions, and work with molecules in different formats </li>
 </ul>
 
+## Kekule.JS
+
+In order to be able to use Kekule library inside this project, you need to move the css file import from node_modules to \_app.js since Next.js does not allow css imports from modules.
+You can check this comment from the author:
+<quote>Not tested in the Next environment but I guess the following approach may be a possible workaround. Please remove the CSS importing line in kekule.webpack.prod.js (require("./themes/default/kekule.css");), and require this CSS file in your own \_app.js instead. Have a try of that?</quote>
+<a href="https://github.com/partridgejiang/Kekule.js/issues/262#issuecomment-1008744853">Link to comment on Github</a>
 
 ## NEXTJS
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
