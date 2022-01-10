@@ -2,7 +2,11 @@
 import "bootstrap/dist/css/bootstrap.css";
 
 // CUSTOM STYLES
+
+import "../styles/kekule.css";
+import "../styles/kekule-custom.css";
 import "../styles/globals.css";
+
 
 // NEXT AUTH
 import { Provider } from "next-auth/client";
